@@ -1,0 +1,187 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik+Mono+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto:wght@300&family=Rubik+Mono+One&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto:ital,wght@0,300;1,300&family=Rubik+Mono+One&display=swap');
+
+body{
+  
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+ 
+  
+}
+
+.conteneur{
+  background-color: #000000;
+}
+.page{
+  margin: 2vh 2vh;
+  
+}
+/* Barre de navigation */
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+
+nav a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: #cf2222;
+
+}
+/* Pour aligner les boutons du menu avec le contenu */
+@media screen and (min-width: 800px) {
+  nav {
+      padding-left: calc((100% - 800px) / 2);
+  }
+}
+  
+
+
+
+
+
+header{
+    margin-top: -3%;
+    background-image:url(image/istockphoto-1294544888-640x640.jpg) ;
+    background-repeat: no-repeat;
+    
+    background-size: 107%;
+   
+}
+
+header h1{
+    font-size: 5vw;
+    text-align: center;
+    color: #fff;
+    
+    font-family: 'Merriweather', serif;
+    padding: 10vw;
+
+
+}
+
+header h2{
+    font-size: 3vw;
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    
+    
+    
+}
+.quevoir{
+  background-color: #fff;
+  
+  color: #000000;
+  /* padding: 180px; */
+  
+  padding: 10vw;
+  text-align: center;
+  font-size: 3vw;
+  margin: 10%;
+  
+  background-size: 200%;
+  background-position: center;
+  border-radius: 10px
+  
+
+}
+  
+.image2{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.textess{
+ 
+width: 40%;
+font-size: 2vw;
+font-family: 'Merriweather', serif;
+font-weight: 100;
+color: #fff;
+
+}
+
+.imagess{
+ 
+  width: 60%;
+
+}
+
+
+
+.tres{
+  background-color: gray;
+  width: 100vw;
+  height: 1vh;
+  margin: 0vw;
+  border-radius: 10px;
+  
+  
+}
+
+
+
+footer{
+  text-decoration: none;
+  
+  background-size: 100%;
+ color: #fff;
+  font-family: 'Merriweather', serif;
+}
+
+.titrer{
+  color: #fff;
+  font-size: 2vw;
+  text-align: center;
+  line-height: 16vw;
+  
+}
+
+.informations{
+  color: #fff;
+  font-size: 2vw;
+  font-weight: 100;
+  margin: 0vw;
+  
+ 
+}
+
+
+.youtube{
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 2vw;
+  line-height: 9vw;
+  font-weight: 100;
+  
+}
+
+.insta{
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 2vw;
+  
+}
+
+
+
